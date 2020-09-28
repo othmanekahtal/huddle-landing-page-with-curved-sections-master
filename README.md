@@ -15,4 +15,4 @@ Huddle landing page with curved sections CHALLENGE Frontend Mentor
 6 - google font : poppins font and Open Sans
 <br/>
 
-###<a href='https://othmanekahtal.github.io/huddle-landing-page-with-curved-sections-master/'>Click here to Show The project<a/>
+<a href='https://othmanekahtal.github.io/huddle-landing-page-with-curved-sections-master/'>Click here to Show The project<a/>
