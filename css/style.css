@@ -96,6 +96,7 @@ header .content__header {
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
 }
 .content__header img {
+  width:'90%';
   margin: 45px auto;
 }
 .container .communities__Messages {
