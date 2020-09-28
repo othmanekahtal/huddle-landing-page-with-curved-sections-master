@@ -1,0 +1,87 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .container .communities__Messages,
+  .parts .container,
+  footer .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container {
+    overflow: hidden;
+  }
+  .content__header h1,
+  .content__header p {
+    width: 80%;
+    margin: 10px auto;
+  }
+  .content__header img {
+    width: 90%;
+    margin: 50px auto 100px;
+  }
+  .container .communities__Messages {
+    width: 50%;
+  }
+  .container .Messages {
+    margin-top: 50px;
+  }
+  .background__bottom1,
+  .background__top1,
+  .background__bottom2,
+  .background__top2,
+  .footer__background {
+    height: 150px;
+    width: 100%;
+    background-size: cover;
+  }
+
+  .background__top1 {
+    background-image: url("../images/bg-section-top-mobile-1.svg");
+  }
+  .background__bottom1 {
+    background-image: url("../images/bg-section-bottom-mobile-1.svg");
+  }
+  .background__top2 {
+    background-image: url("../images/bg-section-top-mobile-2.svg");
+  }
+  .background__bottom2 {
+    background-image: url("../images/bg-section-bottom-mobile-2.svg");
+  }
+  .footer__background {
+    background-image: url("../images/bg-footer-top-mobile.svg");
+  }
+  .parts .content {
+    flex-basis: auto;
+    text-align: center;
+    padding: 50px 0;
+  }
+  .parts.flowing_part .container {
+    padding: 25px 0;
+    flex-direction: column;
+  }
+  footer .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  footer .left__part_footer {
+    padding: 25px;
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .right__part_footer {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+  footer .left__part_footer p,
+  footer .right__part_footer p {
+    width: 100%;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .right__part_footer input[type="email"] {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .right__part_footer input[type="submit"] {
+    float: right;
+  }
+}
